@@ -8,10 +8,10 @@
     
     
     
-    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="shortcut icon" href="../img/favicon.ico">
 
     
-    <title>Home - My digital garden</title>
+    <title>Creating my digital garden - My digital garden</title>
     
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
@@ -19,9 +19,9 @@
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.min.css">
     <link href='//rsms.me/inter/inter.css' rel='stylesheet' type='text/css'>
     <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,600,700&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
-    <link href="css/bootstrap-custom.min.css" rel="stylesheet">
-    <link href="css/base.min.css" rel="stylesheet">
-    <link href="css/cinder.min.css" rel="stylesheet">
+    <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+    <link href="../css/base.min.css" rel="stylesheet">
+    <link href="../css/cinder.min.css" rel="stylesheet">
 
     
         
@@ -40,7 +40,7 @@
      
 </head>
 
-<body class="homepage" >
+<body>
 
     <div class="navbar navbar-default navbar-fixed-top" role="navigation">
     <div class="container">
@@ -58,7 +58,7 @@
 
             <!-- Main title -->
 
-            <a class="navbar-brand" href=".">My digital garden</a>
+            <a class="navbar-brand" href="..">My digital garden</a>
         </div>
 
         <!-- Expanded navigation -->
@@ -67,14 +67,14 @@
                 <ul class="nav navbar-nav">
                 
                 
-                    <li class="active">
-                        <a href=".">Home</a>
+                    <li >
+                        <a href="..">Home</a>
                     </li>
                 
                 
                 
                     <li >
-                        <a href="current/">Current focus</a>
+                        <a href="../current/">Current focus</a>
                     </li>
                 
                 
@@ -84,16 +84,6 @@
                     <li>
                         <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
                             <i class="fas fa-search"></i> Search
-                        </a>
-                    </li>
-                    <li class="disabled">
-                        <a rel="prev" >
-                            <i class="fas fa-arrow-left"></i> Previous
-                        </a>
-                    </li>
-                    <li >
-                        <a rel="next" href="current/">
-                            Next <i class="fas fa-arrow-right"></i>
                         </a>
                     </li>
             </ul>
@@ -106,16 +96,15 @@
         
         <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-        <li class="first-level active"><a href="#welcome-to-my-digital-garden">Welcome to my digital garden</a></li>
+        <li class="first-level active"><a href="#creating-my-digital-garden">Creating my digital garden</a></li>
     </ul>
 </div></div>
         <div class="col-md-9" role="main">
 
-<h1 id="welcome-to-my-digital-garden">Welcome to my digital garden</h1>
-<p>This is not my <a href="https://jennyfaulkner.com">blog</a> but a <a href="digital-garden/">digital garden</a>.</p>
-<p>A digital garden is an area to cultivate and prune ideas before they become a full, polished blog post. Better explanations are given by <a href="https://joelhooks.com/digital-garden">Joel Hooks</a> and <a href="https://nesslabs.com/mind-garden">Anne-Laure Le Cunff</a>.</p>
-<p>As <a href="https://notes.andymatuschak.org/About_these_notes">Andy Matuschak</a> says: if a note seems confusing or badly developed, it's probably because I didn't write it for you. These notes, whilst public, are works in progress. </p>
-<p>There's no real navigation - the posts are linked to each other to form a network of thoughts, but a starting point is my <a href="current/">current focus</a>.</p></div>
+<h1 id="creating-my-digital-garden">Creating my digital garden</h1>
+<p>My first attempt at creating a digital garden was with Tiddlywiki. I have a soft spot for Tiddlywiki but have not yet committed to it in a big way. I felt the same this time - I got my digital garden up and running, but I didn't feel the urge to commit to it. I did however discover Tiddly desktop, which is a game changer for Tiddlywiki in my opinion, and avoids the need for awkard save routines or browser plug ins.</p>
+<p>Next, I looked at Gatsby, which seems to be the platform of choice for many digital gardeners. I successfully got one up and running on a local server, and my main stumbling block was adding pages successfully. For reasons unknown, setting up and linking to some pages worked fine, and yet the same method for other pages resulted in an error message. </p>
+<p>This is the kind of thing I like to sink my teeth into and solve, but on this occasion I was short of time. In any cases, I was curious to try MkDocs, since the fact it is built from markdown documents opens up the possibility of maintaining and adding pages from the iOs environment. As it turned out, MkDocs was the simplest of the three and I was soon up and running with this site, hosted on GitHub. </p></div>
         
         
     </div>
@@ -131,7 +120,7 @@
         
     </footer>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/bootstrap-3.0.3.min.js"></script>
+    <script src="../js/bootstrap-3.0.3.min.js"></script>
 
     
     <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.0/build/highlight.min.js"></script>
@@ -139,10 +128,10 @@
     <script>hljs.initHighlightingOnLoad();</script>
     
 
-    <script>var base_url = "."</script>
+    <script>var base_url = ".."</script>
     
-    <script src="js/base.js"></script>
-    <script src="search/main.js"></script>
+    <script src="../js/base.js"></script>
+    <script src="../search/main.js"></script>
 
     <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
@@ -213,8 +202,3 @@
     </body>
 
 </html>
-
-<!--
-MkDocs version : 1.1.2
-Build Date UTC : 2020-07-16 21:30:27.575587+00:00
--->
