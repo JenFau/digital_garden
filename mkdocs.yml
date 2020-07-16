@@ -1,7 +1,0 @@
-site_name: My digital garden
-nav:
-    - Home: index.md
-    - Current focus: current.md
-theme:
-  name: null
-  custom_dir: cinder
